@@ -1,0 +1,3 @@
+[submodule "powersave"]
+	path = powersave
+	url = https://github.com/Hjdskes/powersave.git

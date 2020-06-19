@@ -1,0 +1,45 @@
+color=#f3f4f5
+separator_block_width=15
+markup=none
+
+
+[volume-pulseaudio]
+command=~/.local/src/i3blocks-contrib/volume-pulseaudio/volume-pulseaudio
+interval=1
+signal=10
+LONG_FORMAT="${SYMB}${VOL}%"
+SHORT_FORMAT="${SYMB}${VOL}%"
+DEFAULT_COLOR="#f3f4f5"
+USE_ALSA_NAME=1
+
+[ram]
+command=echo -n '  '; ~/.local/src/i3blocks-contrib/memory/memory | grep -E -o '^[0-9]+.[0-9]G'
+interval=15
+
+[disk-home]
+command=echo -n '  '; df -h -l --output='used' "$HOME" | grep -E -o '[0-9]+.[0-9]G'
+interval=30
+
+[rofi-calendar]
+command=~/.local/src/i3blocks-contrib/rofi-calendar/rofi-calendar
+interval=60
+
+[battery2]
+command=~/.local/src/i3blocks-contrib/battery2/battery2
+markup=pango
+interval=30
+
+[wifi]
+command=~/.local/src/i3blocks-contrib/wifi/wifi
+label=wifi:
+INTERFACE=wlp3s0
+interval=60
+
+[calendar]
+command=~/.local/src/i3blocks-contrib/calendar/calendar
+interval=1
+LABEL= 
+DATEFMT=+%H:%M:%S
+# SHORTFMT=+%H:%M:%S
+HEIGHT=180
+WIDTH=220
