@@ -16,16 +16,16 @@ set $up     w
 set $right  a
 
 # define names for workspaces
-set $ws1    "1:   Terminal "
-set $ws2    "2:   Code "
-set $ws3    "3:   Chromium "
-set $ws4    "4:   Files "
-set $ws5    "5:   Documents "
-set $ws6    "6:   Media "
-set $ws7    "7:   Design "
-set $ws8    "8:   Chat "
-set $ws9    "9:   General "
-set $ws10   "10:   Settings "
+set $ws1    "1"
+set $ws2    "2"
+set $ws3    "3"
+set $ws4    "4"
+set $ws5    "5"
+set $ws6    "6"
+set $ws7    "7"
+set $ws8    "8"
+set $ws9    "9"
+set $ws10   "10"
 
 # use $mod+Mouse to drag floating windows to their wanted position
 floating_modifier $mod
@@ -279,4 +279,4 @@ exec --no-startup-id redshift -l 31.76904:35.21633
 
 # languages
 exec --no-startup-id "setxkbmap -layout us,il"
-exec --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle"
+exec --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle'"
