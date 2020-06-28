@@ -74,7 +74,6 @@ set wrapscan " Searches wrap around end of file
 
 " Plugin.
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'dikiaap/minimalist'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'junegunn/vim-plug'
@@ -84,6 +83,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-syntastic/syntastic'
+Plug 'chrisbra/Colorizer'
 call plug#end()
 
 " Colors, Fonts, and Syntax.
@@ -124,3 +124,4 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+

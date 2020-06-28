@@ -24,7 +24,7 @@ background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #555
 primary = #ffb52a
-secondary = #e60053
+secondary = #0a70ab
 alert = #bd2c40
 
 
@@ -52,8 +52,8 @@ font-5 = DejaVu Sans:pixelsize=12:weight=regular;3
 bottom = True
 
 modules-left = window-title i3
-modules-center = spotify 
-modules-right = cnetwork-speed-indicator-ether network-speed-indicator-wifi cpu volume battery date 
+modules-center = spotify
+modules-right = cnetwork-speed-indicator-ether network-speed-indicator-wifi cpu volume battery date
 
 
 [module/i3]
@@ -115,7 +115,7 @@ label-song-ellipsis = true
 [module/wlan]
 
 type = internal/network
-interface = wlan0 
+interface = wlan0
 interval = 15
 format-connected = <label-connected>
 ;label-connected ="%signal%% "
@@ -131,14 +131,14 @@ type = internal/network
 interface = wlp2s0
 interval = 1
 format-connected = <label-connected>
-label-connected = "  %downspeed%  %upspeed%"
+label-connected = "  %downspeed%"
 
 [module/network-speed-indicator-wifi]
 type = internal/network
-interface = wlan0 
+interface = wlan0
 interval = 1
 format-connected = <label-connected>
-label-connected = "  %downspeed%  %upspeed%"
+label-connected = "  %downspeed% "
 
 
 
