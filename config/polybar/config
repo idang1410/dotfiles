@@ -37,11 +37,11 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 underline-size = 3
-spacing = 2
+spacing = 0
 padding-left = 0
-padding-right = 0
+padding-right = 1
 module-margin-left = 0
-module-margin-right = 0
+module-margin-right = 1
 font-0 = font\-logos:pixelsize=12;2
 font-1 = FontAwesome:pixelsize=12;2
 font-2 = SFNS Display:pixelsize=12:weight=bold;2
@@ -160,18 +160,18 @@ type = internal/battery
 full-at = 98
 battery = BAT0
 adapter = AC0
-poll-interval = 60
-format-charging = <animation-charging> <label-charging>
+poll-interval = 5
+format-charging = <label-charging><ramp-capacity>
 label-charging = "%percentage%% "
 label-full =" Full "
-format-discharging = <ramp-capacity><label-discharging>
+format-discharging = <label-discharging><ramp-capacity>
 label-discharging = "%percentage%% "
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
-ramp-capacity-foreground = ${colors.foreground}
+; ramp-capacity-foreground = ${colors.foreground}
 
 
 [module/date]
