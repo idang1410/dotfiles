@@ -5,3 +5,5 @@
 */pulse/*
 */libreoffice/*
 */dconf/*
+config/GitKraken/
+*.pem

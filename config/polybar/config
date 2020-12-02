@@ -30,8 +30,8 @@ alert = #bd2c40
 
 [bar/top]
 
-monitor = eDP-1-1
-monitor-fallback = eDP-1
+monitor = eDP-1
+monitor-fallback = HDMI-1
 height = 21
 fixed-center = true
 background = ${colors.background}

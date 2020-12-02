@@ -15,7 +15,7 @@ alias 5='cd -5'
 
 # Easy report
 alias ls='lsd'
-alias grep='grep --color=auto'
+alias grep='rg'
 alias l='ls -l'
 alias la='ls -lA'
 alias lr='ls -R'

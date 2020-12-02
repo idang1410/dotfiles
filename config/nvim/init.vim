@@ -1,6 +1,6 @@
 " General.
 set nocompatible
-set number relativenumber
+set number
 set clipboard=unnamedplus
 set autoindent " Copy indent from last line when starting new line
 set autoread " Set to auto read when a file is changed from the outside
@@ -12,7 +12,7 @@ set foldenable " Enable folding
 set foldlevel=0 " Close all folds by default
 set foldmethod=syntax " Syntax are used to specify folds
 set foldminlines=0 " Allow folding single lines
-set foldnestmax=5 " Set max fold nesting level
+set foldnestmax=1 " Set max fold nesting level
 set formatoptions=
 set formatoptions+=c " Format comments
 set formatoptions+=r " Continue comments by default
@@ -82,7 +82,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-syntastic/syntastic'
 Plug 'chrisbra/Colorizer'
 call plug#end()
 

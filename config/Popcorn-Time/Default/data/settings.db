@@ -1,0 +1,18 @@
+{"key":"releaseName","value":"Love in the Time of Corona","_id":"9CgJH1ykelHvbqoc"}
+{"key":"filters","value":{"movies":{"sorter":"trending","genre":"","order":-1},"shows":{"sorter":"trending","genre":"","order":-1}},"_id":"ANWvLV2wXJYrFyzf"}
+{"key":"lastWatchedTime","value":2.3917200000000003,"_id":"AfS1eVrd7cG3suZI"}
+{"key":"version","value":"0.4.4","_id":"EYFdkz0M2Kqt9YTJ"}
+{"key":"totalDownloaded","value":null,"_id":"Hh2Rr6N84qm30noD"}
+{"key":"playerVolume","value":"1.0","_id":"J1P6WimBOQndavCF"}
+{"key":"arch","value":"x64","_id":"K4s9HWwEUa5IA02o"}
+{"key":"os","value":"linux","_id":"T05MsdRsAukAFaWl"}
+{"key":"language","value":"en","_id":"T33nbOokyujzwA9F"}
+{"key":"totalUploaded","value":null,"_id":"b47sF5QueBdK7hPO"}
+{"key":"lastWatchedTitle","value":"Brooklyn Nine-Nine - Season 7, Episode 8 - The Takeback","_id":"lkchSBc7GsjjzLs5"}
+{"key":"disclaimerAccepted","value":1,"_id":"xmKSFhK6QhZ7iwwt"}
+{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
+{"key":"version","value":"0.4.4","_id":"EYFdkz0M2Kqt9YTJ"}
+{"key":"releaseName","value":"Love in the Time of Corona","_id":"9CgJH1ykelHvbqoc"}
+{"key":"arch","value":"x64","_id":"K4s9HWwEUa5IA02o"}
+{"key":"os","value":"linux","_id":"T05MsdRsAukAFaWl"}
+{"key":"filters","value":{"movies":{"sorter":"trending","genre":"","order":-1},"shows":{"sorter":"trending","genre":"","order":-1}},"_id":"ANWvLV2wXJYrFyzf"}
