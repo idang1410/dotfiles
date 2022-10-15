@@ -1,4 +1,3 @@
-
 [Default Applications]
 text/html=chromium.desktop
 x-scheme-handler/http=chromium.desktop
@@ -6,3 +5,9 @@ x-scheme-handler/https=chromium.desktop
 x-scheme-handler/about=chromium.desktop
 x-scheme-handler/unknown=chromium.desktop
 x-scheme-handler/gitkraken=GitKraken.desktop
+image/heif=userapp-viewnior-QH8VK1.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-SDC4T1.desktop
+
+[Added Associations]
+image/heif=userapp-viewnior-QH8VK1.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-SDC4T1.desktop;

@@ -49,3 +49,4 @@ fi
 if [ -f ~/.local/bin/base16-oxide ]; then
     source ~/.local/bin/base16-oxide
 fi
+. "$HOME/.cargo/env"

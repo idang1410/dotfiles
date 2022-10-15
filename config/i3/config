@@ -4,7 +4,7 @@
 # i3 config file (v4)
 
 # font for window titles and bar
-font pango:Source Sans Pro 10
+font pango:Source Sans Pro 0
 
 # use win key
 set $mod Mod4
@@ -131,18 +131,18 @@ bindsym $mod+F2 workspace $ws2; exec code
 bindsym $mod+F3 workspace $ws3; exec chromium
 bindsym $mod+F4 workspace $ws4; exec pcmanfm
 bindsym $mod+F5 workspace $ws5; exec libreoffice
-bindsym $mod+F6 workspace $ws6; exec spotify
+bindsym $mod+F6 workspace $ws6; exec chromium --app=https://open.spotify.com/#_=_
 bindsym $mod+F7 workspace $ws7; exec gcolor2
 bindsym $mod+F8 workspace $ws8; exec telegram
 bindsym $mod+F9 workspace $ws9; exec go-for-it
-bindsym Print                   exec --no-startup-id gnome-screenshot
-bindsym $mod+Print              exec --no-startup-id gnome-screenshot -a
+#bindsym Print                   exec --no-startup-id gnome-screenshot
+#bindsym $mod+Print              exec --no-startup-id gnome-screenshot -a
 bindsym $mod+Shift+x            exec --no-startup-id  i3lock-fancy-rapid 1 60 -f Source-Sans-Pro
 
 # volume
 bindsym XF86AudioLowerVolume    exec --no-startup-id pulsemixer --change-volume -5
 bindsym XF86AudioRaiseVolume    exec --no-startup-id pulsemixer --change-volume +5
-bindsym XF86AudioMute           exec --no-startup-id amixer -q sset Master toggle
+bindsym XF86AudioMute           exec --no-startup-id amixer -q sset Master toggle && amixer set Speaker unmute
 
 
 
@@ -182,7 +182,7 @@ assign [class="Alacritty"]          → $ws1
 assign [class="terminal"]           → $ws1
 assign [class="Sublime"]            → $ws2
 assign [class="Code"]               → $ws2
-assign [class="Chromium"]           → $ws3
+# assign [class="Chromium"]           → $ws3
 assign [class="Firefox"]            → $ws3
 assign [class="Authy"]              → $ws3
 assign [class="File-roller"]        → $ws4
@@ -192,6 +192,7 @@ assign [class="ghostwriter"]        → $ws5
 assign [class="libreoffice"]        → $ws5
 assign [class="Audacious"]          → $ws6
 assign [class="mpv"]                → $ws6
+assign [class="vlc"]                → $ws6
 assign [class="Spotify"]            → $ws6
 assign [class="spotify"]            → $ws6
 assign [class="Gimp"]               → $ws7

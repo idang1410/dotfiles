@@ -52,7 +52,7 @@ font-5 = DejaVu Sans:pixelsize=12:weight=regular;3
 bottom = True
 
 modules-left = window-title i3
-modules-center = spotify
+; modules-center = spotify
 modules-right = cnetwork-speed-indicator-ether network-speed-indicator-wifi cpu volume battery date
 
 
@@ -115,7 +115,7 @@ label-song-ellipsis = true
 [module/wlan]
 
 type = internal/network
-interface = wlan0
+interface = wlp3s0
 interval = 15
 format-connected = <label-connected>
 ;label-connected ="%signal%% "

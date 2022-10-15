@@ -18,7 +18,7 @@ window:
   startup_mode: Windowed
 
 scrolling:
-  history: 2500
+  history: 25000
   multiplier: 3
 
 font:
@@ -84,7 +84,8 @@ bell:
   duration: 0
   color: '0xffffff'
 
-background_opacity: 0.7
+window:
+  opacity: 0.7
 
 mouse_bindings:
   - { mouse: Middle, action: PasteSelection }
@@ -95,7 +96,7 @@ mouse:
 
   hide_when_typing: false
 
-  url:
+  hints:
     launcher:
       program: xdg-open
 
