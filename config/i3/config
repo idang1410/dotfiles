@@ -1,4 +1,4 @@
-# Oxide theme
+# Oxide them
 #
 # License: MIT
 # i3 config file (v4)
@@ -181,7 +181,7 @@ for_window [class="Software-properties-gtk"]        floating enable
 assign [class="Alacritty"]          → $ws1
 assign [class="terminal"]           → $ws1
 assign [class="Sublime"]            → $ws2
-assign [class="Code"]               → $ws2
+assign [class="electron"]               → $ws2
 # assign [class="Chromium"]           → $ws3
 assign [class="Firefox"]            → $ws3
 assign [class="Authy"]              → $ws3
